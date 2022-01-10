@@ -1,5 +1,5 @@
 import { expect } from 'https://deno.land/x/tdd/mod.ts'
-import * as _ from "../src/initial.ts";
+import * as _ from "../src/ourFunction.ts";
 
 Deno.test("initial", () => {
     let x = _.initial([1,2,3])
